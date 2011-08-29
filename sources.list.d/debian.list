@@ -1,0 +1,20 @@
+# squeeze == stable == Debian 6.0
+deb http://cdn.debian.net/debian/ squeeze main contrib non-free
+deb-src http://cdn.debian.net/debian/ squeeze main contrib non-free
+
+# sid == unstable == breaks sometimes
+deb http://cdn.debian.net/debian/ sid main contrib non-free
+deb-src http://cdn.debian.net/debian/ sid main contrib non-free
+
+deb http://cdn.debian.net/debian/ stable main contrib non-free
+deb-src http://cdn.debian.net/debian/ stable main contrib non-free
+
+deb http://cdn.debian.net/debian/ testing main contrib non-free
+deb-src http://cdn.debian.net/debian/ testing main contrib non-free
+
+deb http://cdn.debian.net/debian/ unstable main contrib non-free
+deb-src http://cdn.debian.net/debian/ unstable main contrib non-free
+
+# experimental is almost always broken, and incomplete too!
+deb http://cdn.debian.net/debian/ experimental main contrib non-free
+deb-src http://cdn.debian.net/debian/ experimental main contrib non-free
