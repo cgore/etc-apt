@@ -1,1 +1,5 @@
+# The very first package you should install is debian-multimedia-keyring
+# after adding this file: it contains the keyring so that these packages
+# can be confirmed.
+
 deb http://www.debian-multimedia.org squeeze main non-free
